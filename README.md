@@ -1,4 +1,4 @@
-Correr aplicación
+## Correr aplicación
 Antes de empezar a usar la aplicación, se debe correr este comando: `npm install`
 <br>
 
