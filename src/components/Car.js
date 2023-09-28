@@ -39,7 +39,7 @@ const Car = (props) => {
                     <tr>
                         <th scope="col">Price</th>
                         {!props.userRole && <p>{car.carPrice}</p>}
-                        {props.userRole && <input placeholder="Price" defaultValue={car.carPrice}></input>}
+                        {props.userRole && <input placeholder="Price" defaultValue={car.price}></input>}
                     </tr>
                     <tr>
                         <th scope="col">Description:</th>
