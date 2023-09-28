@@ -11,11 +11,11 @@ const Cars = (props) => {
     }
 
     return (
-        <div className="C-container">
+        <div className="CS-container">
             
             {props.cars.map((car, index) => (
-            <Col>
-                <Card sx={{ maxWidth: 200 } }>
+            
+                <Card className="CS-card">
                     <Card.Body style={{textAlign:"left", cursor:"pointer"}} onClick={() => renderCar(index)}>
                         <Card.Img src={car.image} style={{height:"10vmin"}}></Card.Img>
                         <Card.Title>{car.carModel}</Card.Title>
@@ -23,10 +23,7 @@ const Cars = (props) => {
                         <Card.Text>{car.price + " - " + car.carYear}</Card.Text>
                     </Card.Body>
                 </Card>
-            </Col>
-            ))}
-            
-            
+            ))}  
         </div>
     )
 }

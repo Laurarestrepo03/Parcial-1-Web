@@ -1,3 +1,36 @@
 .C-container {
     display: flex;
+    align-items: center;
+    margin-top: 10vmin;
+}
+
+.C-details {
+    margin-right: 20vmin;
+}
+
+p, input {
+    text-align: left !important;
+}
+
+h1 {
+    text-align: left !important;
+}
+
+hr {
+    border-top: 0.5vmin solid !important;
+}   
+
+label {
+    color: #d73c38;
+    font-weight: bold;
+    text-align: left !important;
+    margin-right: 10vmin;
+}
+
+td {
+    margin-left: 1vmin !important;
+}
+
+img {
+    height: 50vmin;
 }

@@ -1,10 +1,21 @@
-.C-container {
+.CS-container {
     display: flex;
-    align-items: center;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
 }
 
-th, p, input {
-    text-align: left !important;
+.CS-card {
+    margin: 2vmin;
+    width: 100vmin;
+    border-radius: 0 !important;
+    border-color: black !important;
 }
+
+img {
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 
 

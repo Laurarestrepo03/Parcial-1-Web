@@ -1,0 +1,22 @@
+{
+    "A-header": "Acceder",
+    "A-use-account": "Usa tu cuenta de UniAlpes",
+    "A-email": "Correo electrónico",
+    "A-forgot-email": "¿Olvidaste tu correo electrónico?",
+    "A-email-warning": "Tu correo debe seguir un formato establecido",
+    "A-create-account": "Crear cuenta",
+    "A-next": "Siguiente",
+    "A-enter-password": "Ingresa tu contraseña",
+    "A-password-warning": "Tu contraseña debe tener la menos 6 caracteres",
+    "A-show-password": "Mostrar contraseña",
+    
+    "C-alt": "carro",
+    "C-maker": "Marca carro",
+    "C-model": "Modelo carro",
+    "C-year": "Año carro",
+    "C-available": "Disponible en línea",
+    "C-available-yes": "Sí",
+    "C-available-no": "No",
+    "C-price": "Precio",
+    "C-description": "Descripción:"
+}

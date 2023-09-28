@@ -1,4 +1,8 @@
-p {
+.A-header {
+    text-align: center !important;
+}
+
+.A-message{
     text-align: center !important;
 }
 
@@ -9,4 +13,27 @@ p {
 .A-invalid-input:focus {
     outline: none !important;
     box-shadow: none !important;
+}
+
+.A-forgot{
+    text-align: left;
+    font-weight: bold;
+    color: #2470e8;
+    font-size: 2vmin;
+    margin-top: 3vmin;
+}
+
+.A-create-next{
+    margin-top: 5vmin;
+    display: flex;
+    justify-content: space-between;
+}
+
+.A-button{
+    background-color: #2470e8;
+}
+
+.A-check{
+    text-align: left;
+    margin-top: 1vmin;
 }

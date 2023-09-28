@@ -1,0 +1,22 @@
+{
+    "A-header": "Access",
+    "A-use-account": "Use your UniAlpes account",
+    "A-email": "Email",
+    "A-email-warning": "Your email should follow an established format",
+    "A-forgot-email": "Forgot your email?",
+    "A-create-account": "Create account",
+    "A-next": "Next",
+    "A-enter-password": "Enter your password",
+    "A-password-warning": "Your password should be at least 6 chars long",
+    "A-show-password": "Show password",
+    
+    "C-alt": "car",
+    "C-maker": "Car maker",
+    "C-model": "Car model",
+    "C-year": "Car year",
+    "C-available": "Available online",
+    "C-available-yes": "Yes",
+    "C-available-no": "No",
+    "C-price": "Price",
+    "C-description": "Description:"
+}
