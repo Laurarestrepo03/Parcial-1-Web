@@ -2,19 +2,24 @@
     display: flex;
     margin-left: 10vmin;
     margin-right: 10vmin;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .CS-card {
     margin: 2vmin;
-    width: 100vmin;
+    width: 30vmin;
+    height: auto;
     border-radius: 0 !important;
     border-color: black !important;
 }
 
-img {
+.CS-img {
     border-radius: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
+    width: 50%;
+    height: auto;
 }
 
 

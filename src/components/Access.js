@@ -21,7 +21,7 @@ const Access = (props) => {
     const passValidation = /^.{6,}$/;
 
     const handleEmailChange = ((e) => {
-        const validEmail = emailValidation.test(formValues.email);
+        const validEmail = emailValidation.test(e.target.value);
         setValidationStates({ ...validationStates, emailState: validEmail }); 
         setFormValues({...formValues, email: e.target.value})
     });
@@ -92,7 +92,7 @@ const Access = (props) => {
                                 className={validationStates.passwordState ? null : 'A-invalid-input'}/>
                                 { !validationStates.passwordState && <Form.Text className="text-muted"> <FormattedMessage id="A-password-warning"/> </Form.Text> }
                                 <Form.Check className="A-check" checked={showPassword} onChange={() => setShowPassword(!showPassword)} 
-                                label={intl.formatMessage({id:"A-show-password"})} style={{marginTop:"1.5vmin"}}></Form.Check>
+                                label={intl.formatMessage({id:"A-show-password"})} style={{marginTop:"1vmin"}}></Form.Check>
                             </Form.Group>
                         </Form>
                         <Button variant="primary" className="A-button" style={{textAlign:"center", marginTop:"5vmin"}} onClick={handleNextPassword}> <FormattedMessage id="A-next"/> </Button>

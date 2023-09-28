@@ -6,25 +6,31 @@
 
 .C-details {
     margin-right: 20vmin;
+    text-align: left !important;
 }
 
 p, input {
     text-align: left !important;
 }
 
+.C-description-input{
+    width: 90vmin;
+}
+
 h1 {
-    text-align: left !important;
+    text-align: left;
 }
 
 hr {
     border-top: 0.5vmin solid !important;
 }   
 
-label {
+.C-label {
     color: #d73c38;
     font-weight: bold;
-    text-align: left !important;
-    margin-right: 10vmin;
+    align-items: left !important;
+    margin-right: 8vmin;
+    padding: 0 !important;
 }
 
 td {
