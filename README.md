@@ -2,7 +2,7 @@
 Antes de empezar a usar la aplicación, se debe correr este comando: `npm install`
 <br>
 
-Una vez se haya hecho esto, se corre la aplicación: `npm start`
+Una vez se haya hecho esto, se puede iniciar la app: `npm start`
 <br>
 
 Si llega a haber error por paquetes, intentar correr los siguientes comandos:
