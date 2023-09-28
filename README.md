@@ -7,7 +7,7 @@ Una vez se haya hecho esto, se puede iniciar la app: `npm start`
 
 Si llega a haber error por paquetes, intentar correr los siguientes comandos:
 
-- `npm install react-bootstrap bootrap`
+- `npm install react-bootstrap bootstrap`
 - `npm install react-router-dom`
 - `npm install react-intl`
 <br>
