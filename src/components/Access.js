@@ -1,9 +1,9 @@
-import '../CSS-files/Acceder.css';
+import '../CSS-files/Access.css';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Form, Button } from "react-bootstrap";
 
-const SingIn = (props) => {
+const Access = (props) => {
 
     const[formValues, setFormValues] = useState({email: "", password:"", role: props.userRole});
     const[validationStates, setValidationStates] = useState({emailState: true, passwordState: true});
@@ -84,4 +84,4 @@ const SingIn = (props) => {
     )
 }
 
-export default SingIn;
+export default Access;

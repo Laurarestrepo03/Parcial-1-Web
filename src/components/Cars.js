@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import { Col, Card } from "react-bootstrap";
-import '../CSS-files/Carros.css';
+import '../CSS-files/Cars.css';
 
-const Carros = (props) => {
+const Cars = (props) => {
 
     const nav = useNavigate();
 
@@ -31,4 +31,4 @@ const Carros = (props) => {
     )
 }
 
-export default Carros;
+export default Cars;

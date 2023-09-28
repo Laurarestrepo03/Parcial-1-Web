@@ -1,8 +1,8 @@
 import React from 'react';
 import '../CSS-files/App.css';
-import Acceder from './Acceder';
-import Carros from './Carros';
-import Carro from './Carro';
+import Access from './Access';
+import Cars from './Cars';
+import Car from './Car';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from 'react';
 
@@ -20,9 +20,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/login" element={<Acceder userRole={userRole}/>} />
-          <Route path="/home" element={<Carros  cars={cars} />} />
-          <Route path="/home/:carModel" element={<Carro cars={cars} userRole={userRole}/>} />
+          <Route path="/login" element={<Access userRole={userRole}/>} />
+          <Route path="/home" element={<Cars  cars={cars} />} />
+          <Route path="/home/:carModel" element={<Car cars={cars} userRole={userRole}/>} />
           </Routes>  
       </BrowserRouter>
     </div>
