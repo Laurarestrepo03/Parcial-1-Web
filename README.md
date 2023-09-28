@@ -27,7 +27,8 @@ La app cambia el idioma atomáticamente (entre EN y ES) dependiendo del idioma d
 <img width="800" alt="Captura de pantalla 2023-09-28 a la(s) 13 49 10" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/3460c7e9-006f-456a-bf08-2fc6b79b92dd">
 
 ### Home
-<img width="800" alt="Captura de pantalla 2023-09-28 a la(s) 13 49 17" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/8d16007e-3952-46c2-85aa-196479384ab5">
+<img width="800" alt="Captura de pantalla 2023-09-28 a la(s) 13 58 54" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/a2747ea8-3687-44a6-9d15-e7d7ebf7b41f">
+
 
 ### Detalles carro - Admin
 <img width="800" alt="Captura de pantalla 2023-09-28 a la(s) 13 49 40" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/e85f1f0e-d8e3-4213-80db-700853fe0b46">
