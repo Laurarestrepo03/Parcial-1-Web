@@ -17,7 +17,7 @@ Con la app corriendo, ingresar a la siguiente ruta: [http://localhost:3000/login
 
 ## i18n:
 
-La app cambia el idioma atomáticamente (entre EN y ES) dependiendo del idioma del navegador. Si es está usando Chrome, ir a preferencias -> idiomas y mover inglés o español al principio de la pila.
+La app cambia el idioma atomáticamente (entre EN y ES) dependiendo del idioma del navegador. Si se está usando Chrome, ir a preferencias -> idiomas y mover inglés o español al principio de la pila.
 
 ## Vistas
 ### Login - Correo
