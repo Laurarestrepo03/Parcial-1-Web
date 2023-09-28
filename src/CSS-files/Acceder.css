@@ -1,0 +1,12 @@
+p {
+    text-align: center !important;
+}
+
+.A-invalid-input {
+    border: 2px solid red !important; 
+}
+  
+.A-invalid-input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
