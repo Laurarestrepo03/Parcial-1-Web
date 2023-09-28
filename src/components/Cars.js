@@ -18,8 +18,8 @@ const Cars = (props) => {
                     <Card.Body style={{textAlign:"left", cursor:"pointer"}} onClick={() => renderCar(index)}>
                         <Card.Img src={car.image} className="CS-img"></Card.Img>
                         <Card.Title style={{marginTop:"2vmin"}}>{car.carModel}</Card.Title>
-                        <Card.Text>{car.carMaker}</Card.Text>
-                        <Card.Text>{car.price + " - " + car.carYear}</Card.Text>
+                        <Card.Subtitle>{car.carMaker}</Card.Subtitle>
+                        <Card.Text style={{marginTop:"1vmin"}}>{car.price + " - " + car.carYear}</Card.Text>
                     </Card.Body>
                 </Card>
             ))}  
