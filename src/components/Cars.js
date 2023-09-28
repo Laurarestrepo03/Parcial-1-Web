@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { Col, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import '../CSS-files/Cars.css';
 
 const Cars = (props) => {
