@@ -13,6 +13,11 @@ p, input {
     text-align: left !important;
 }
 
+td p {
+    margin-bottom: 0 !important;
+  
+}
+
 .C-description-input{
     width: 90vmin;
 }
@@ -29,12 +34,11 @@ hr {
     color: #d73c38;
     font-weight: bold;
     align-items: left !important;
-    margin-right: 8vmin;
-    padding: 0 !important;
+    padding-right: 8vmin;
 }
 
 td {
-    margin-left: 1vmin !important;
+    padding-bottom: 1vmin !important;
 }
 
 img {
