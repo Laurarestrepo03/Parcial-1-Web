@@ -56,7 +56,7 @@ const Car = (props) => {
                         </td>
                     </tr>
                     <tr>
-                        <label className="C-label"> <FormattedMessage id="C-description"/> : </label>
+                        <label className="C-label"> <FormattedMessage id="C-description"/>: </label>
                     </tr>
                 </table>
                 {!props.userRole && <p>{car.description}</p>}
