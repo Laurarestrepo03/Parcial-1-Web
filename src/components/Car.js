@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Col } from "react-bootstrap";
 import {FormattedMessage, useIntl} from 'react-intl';
@@ -8,7 +8,14 @@ const Car = (props) => {
     const intl = useIntl();
     const params = useParams();
 
-    const [car, ] = useState(props.cars.find((car) => car.carModel === (params.carModel)));
+    const [car, setCar] = useState([]);
+
+    useEffect(()=>{
+        fetch("https://raw.githubusercontent.com/Laurarestrepo03/Parcial-1-Web/main/datos.json")
+        .then(response => response.json()).then(data => {
+            setCar(data.find((car) => car.carModel === params.carModel));
+          });
+      }, [params.carModel]);
     
     return (
         <div className="C-container">
