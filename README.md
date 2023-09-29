@@ -28,7 +28,7 @@ Los elementos de React usados fueron:
 - Route -> Utilizado para definir las rutas (/login, /home, /home/:carModel)
 - Form -> Utilizado para definir los formularios de correo y contraseña.
 - FormattedMessage -> Utilizado para la i18n.
-- Card -> Utilizado para las tarjetas de carros de la página vista /home.
+- Card -> Utilizado para las tarjetas de carros de la vista /home.
 - Col -> Importando desde Bootstrap, utilizado para definir columnas.
 
 ## i18n:
