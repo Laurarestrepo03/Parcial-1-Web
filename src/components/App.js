@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 function App() {
   
-  const [userRole, ] = useState(Math.random() >= 0.5);
+  const [userRole, ] = useState(Math.random() >= 0.5); // True = Admin
 
   return (
     <div className="App">
