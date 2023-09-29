@@ -26,29 +26,30 @@ const Car = (props) => {
                 <h1>{car.carModel}</h1>
                 <hr></hr>
                 <table>
+                    <tbody>
                     <tr>
-                        <label className="C-label"> <FormattedMessage id="C-maker"/> </label>
+                        <td className="C-label"> <FormattedMessage id="C-maker"/> </td>
                         <td>
                             {!props.userRole && <p>{car.carMaker}</p>}
                             {props.userRole && <input placeholder={intl.formatMessage({id:"C-maker"})} defaultValue={car.carMaker}></input>}
                         </td>
                     </tr>
                     <tr>
-                        <label className="C-label"> <FormattedMessage id="C-model"/> </label>
+                        <td className="C-label"> <FormattedMessage id="C-model"/> </td>
                         <td>
                             {!props.userRole && <p>{car.carModel}</p>}
                             {props.userRole && <input placeholder={intl.formatMessage({id:"C-model"})} defaultValue={car.carModel}></input>}
                         </td>
                     </tr>
                     <tr>
-                        <label className="C-label"> <FormattedMessage id="C-year"/> </label>
+                        <td className="C-label"> <FormattedMessage id="C-year"/> </td>
                         <td>
                             {!props.userRole && <p>{car.carYear}</p>}
                             {props.userRole && <input placeholder={intl.formatMessage({id:"C-year"})} defaultValue={car.carYear}></input>}
                         </td>
                     </tr>
                     <tr>
-                        <label className="C-label"> <FormattedMessage id="C-available"/> </label>
+                        <td className="C-label"> <FormattedMessage id="C-available"/> </td>
                         <td>
                             {!props.userRole && <p>{car.available ? intl.formatMessage({id:"C-available-yes"}) : intl.formatMessage({id:"C-available-no"})}</p>}
                             {props.userRole && <input placeholder={intl.formatMessage({id:"C-available"})} 
@@ -56,15 +57,16 @@ const Car = (props) => {
                         </td>
                     </tr>
                     <tr>
-                        <label className="C-label"> <FormattedMessage id="C-price"/> </label>
+                        <td className="C-label"> <FormattedMessage id="C-price"/> </td>
                         <td>
                             {!props.userRole && <p>{car.price}</p>}
                             {props.userRole && <input placeholder={intl.formatMessage({id:"C-price"})} defaultValue={car.price}></input>}
                         </td>
                     </tr>
                     <tr>
-                        <label className="C-label"> <FormattedMessage id="C-description"/>: </label>
+                        <td className="C-label"> <FormattedMessage id="C-description"/>: </td>
                     </tr>
+                    </tbody>
                 </table>
                 {!props.userRole && <p>{car.description}</p>}
                 {props.userRole && <input placeholder={intl.formatMessage({id:"C-description"})} 

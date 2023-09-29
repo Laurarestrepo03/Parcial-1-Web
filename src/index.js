@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <IntlProvider locale={userLocale} messages= {userLocale === "es" ? localeEsMessages : localEnMessages}>
       <App userLocale={userLocale}/>
-    </IntlProvider>, document.getElementById("root")
+    </IntlProvider>
 );
 
 // If you want your app to work offline and load faster, you can change

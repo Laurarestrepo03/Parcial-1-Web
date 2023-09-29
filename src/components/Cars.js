@@ -22,7 +22,7 @@ const Cars = () => {
         <div className="CS-container">
             
             {cars.map((car, index) => (
-                <Card className="CS-card">
+                <Card className="CS-card" key={car.carModel}>
                     <Card.Body style={{textAlign:"left", cursor:"pointer"}} onClick={() => renderCar(index)}>
                         <Card.Img src={car.image} className="CS-img"></Card.Img>
                         <Card.Title style={{marginTop:"2vmin"}}>{car.carModel}</Card.Title>

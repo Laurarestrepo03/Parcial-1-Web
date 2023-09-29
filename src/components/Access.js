@@ -68,8 +68,7 @@ const Access = (props) => {
                     <h1 style={{marginTop:"20vmin"}} className="A-header"> <FormattedMessage id="A-header"/> </h1>
                     <p className="A-message"> <FormattedMessage id="A-use-account"/> </p>
                     <Form style={{width:"60vmin", justifyContent:"center"}} className="mx-auto">
-                        <Form.Group className="mb-6" controlId="formBasicEmail" >
-                            <Form.Label style={{color:"gray"}}></Form.Label>
+                        <Form.Group className="mb-6" controlId="formBasicEmail">
                             <Form.Control type="email" placeholder={intl.formatMessage({id:"A-email"})} onChange={handleEmailChange} value={formValues.email} 
                             className={validationStates.emailState ? null : 'A-invalid-input'}/>
                             { !validationStates.emailState && <Form.Text className="text-muted"> <FormattedMessage id="A-email-warning"/> </Form.Text>}
@@ -87,13 +86,12 @@ const Access = (props) => {
                         <h1 style={{marginTop:"20vmin"}} className="A-header"> {formValues.email}</h1>
                         <Form style={{width:"60vmin", justifyContent:"center"}} className="mx-auto">
                             <Form.Group className="mb-3" controlId="formBasicPassword" style={{marginTop:"2vmin"}}>
-                                <Form.Label style={{color:"gray"}}></Form.Label>
                                 <Form.Control type={showPassword ? "text" : "password"} placeholder={intl.formatMessage({id:"A-enter-password"})} onChange={handlePasswordChange} value={formValues.password} 
                                 className={validationStates.passwordState ? null : 'A-invalid-input'}/>
                                 { !validationStates.passwordState && <Form.Text className="text-muted"> <FormattedMessage id="A-password-warning"/> </Form.Text> }
-                                <Form.Check className="A-check" checked={showPassword} onChange={() => setShowPassword(!showPassword)} 
-                                label={intl.formatMessage({id:"A-show-password"})} style={{marginTop:"1vmin"}}></Form.Check>
                             </Form.Group>
+                            <Form.Check className="A-check" checked={showPassword} onChange={() => setShowPassword(!showPassword)} 
+                                label={intl.formatMessage({id:"A-show-password"})} style={{marginTop:"1vmin"}}></Form.Check>
                         </Form>
                         <Button variant="primary" className="A-button" style={{textAlign:"center", marginTop:"5vmin"}} onClick={handleNextPassword}> <FormattedMessage id="A-next"/> </Button>
                     </div>)}
