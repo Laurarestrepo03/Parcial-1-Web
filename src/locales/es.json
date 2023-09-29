@@ -7,7 +7,7 @@
     "A-create-account": "Crear cuenta",
     "A-next": "Siguiente",
     "A-enter-password": "Ingresa tu contraseña",
-    "A-password-warning": "Tu contraseña debe tener la menos 6 caracteres",
+    "A-password-warning": "Tu contraseña debe tener al menos 6 caracteres",
     "A-show-password": "Mostrar contraseña",
     
     "C-alt": "carro",
