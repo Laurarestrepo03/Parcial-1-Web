@@ -10,7 +10,6 @@ Si llega a haber error por paquetes, intentar correr los siguientes comandos:
 - `npm install react-bootstrap bootstrap`
 - `npm install react-router-dom`
 - `npm install react-intl`
-<br>
 
 Con la app corriendo, ingresar a la siguiente ruta: [http://localhost:3000/login](http://localhost:3000/login)
 
@@ -21,7 +20,7 @@ Para el desarrollo de la aplicación, primero se identificaron las vistas necesa
 - App -> Define un rol de usuario aleatorio y las rutas.
 - Access (login) -> Realiza el login del usuario, verifica que los campos cumplan las condiciones y hace un POST.
 - Cars (home) -> Hace fetch a todos datos (GET) y muestra todos los carros como tarjetas.
-- Car (detalles) -> Hace fetch a un carro (GET y muestra sus detalles. Estos detalles son editables si el rol de usuario lo permite.
+- Car (detalles) -> Hace fetch a un carro (GET) y muestra sus detalles. Estos detalles son editables si el rol de usuario lo permite.
 
 ## Elementos React
 Los elementos de React usados fueron:
