@@ -31,7 +31,6 @@ Los elementos de React usados fueron:
 - Col -> Importado desde Bootstrap, utilizado para definir columnas.
 
 ## i18n:
-
 La app cambia el idioma atomáticamente (entre EN y ES) dependiendo del idioma del navegador. Si se está usando Chrome, ir a configuración -> idiomas y mover inglés o español al principio de la pila. Si por alguna razón la app no puede reconocer el idioma o se está en otro diferente a español o inglés, se selecciona automáticamente inglés.
 
 ## Vistas (EN)
@@ -44,10 +43,8 @@ La app cambia el idioma atomáticamente (entre EN y ES) dependiendo del idioma d
 ### Home
 <img width="800" alt="Captura de pantalla 2023-09-28 a la(s) 13 58 54" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/a2747ea8-3687-44a6-9d15-e7d7ebf7b41f">
 
-
 ### Detalles carro - Admin
 <img width="800" alt="Captura de pantalla 2023-09-29 a la(s) 17 14 03" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/ded088b9-0c49-4d3c-982e-412d6e4496d8">
-
 
 ### Detalles carro - Usuario
 <img width="800" alt="Captura de pantalla 2023-09-29 a la(s) 17 12 12" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/78eb7ff7-e233-400c-a29f-7099cb17770c">
