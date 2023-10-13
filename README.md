@@ -5,7 +5,7 @@ Antes de empezar a usar la aplicación, se debe correr este comando: `npm instal
 Una vez se haya hecho esto, se puede iniciar la app: `npm start`
 <br>
 
-Si llega a haber error por paquetes, intentar correr los siguientes comandos:
+Si llega a haber error por paquetes/dependencias, intentar correr los siguientes comandos:
 
 - `npm install react-bootstrap bootstrap`
 - `npm install react-router-dom`
