@@ -35,16 +35,16 @@ La app cambia el idioma atomáticamente (entre EN y ES) dependiendo del idioma d
 
 ## Vistas (EN)
 ### Login - Correo
-<img width="800" alt="login-email" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/520aa88b-220b-4a02-b1f8-4321cc3200ef">
+<img width="600" alt="login-email" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/520aa88b-220b-4a02-b1f8-4321cc3200ef">
 
 ### Login - Contraseña
-<img width="800" alt="login-passwrod" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/3460c7e9-006f-456a-bf08-2fc6b79b92dd">
+<img width="600" alt="login-passwrod" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/3460c7e9-006f-456a-bf08-2fc6b79b92dd">
 
 ### Home
-<img width="800" alt="home" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/a2747ea8-3687-44a6-9d15-e7d7ebf7b41f">
+<img width="600" alt="home" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/a2747ea8-3687-44a6-9d15-e7d7ebf7b41f">
 
 ### Detalles carro - Admin
-<img width="800" alt="details-admin" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/ded088b9-0c49-4d3c-982e-412d6e4496d8">
+<img width="600" alt="details-admin" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/ded088b9-0c49-4d3c-982e-412d6e4496d8">
 
 ### Detalles carro - Usuario
-<img width="800" alt="details-user" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/78eb7ff7-e233-400c-a29f-7099cb17770c">
+<img width="600" alt="details-user" src="https://github.com/Laurarestrepo03/Parcial-1-Web/assets/69609680/78eb7ff7-e233-400c-a29f-7099cb17770c">
