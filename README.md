@@ -11,7 +11,7 @@ Si llega a haber un error por paquetes, intentar correr los siguientes comandos:
 - `npm install react-router-dom`
 - `npm install react-intl`
 
-Con la app corriendo, ingresar a la siguiente ruta: [http://localhost:3000/login](http://localhost:3000/login)
+Con la app corriendo, ingresar a la siguiente ruta: <(http://localhost:3000/login>
 
 ## Proceso de desarrollo
 Para el desarrollo de la aplicación, primero se identificaron las vistas necesarias; estas son 3: login, home y detalles. Siendo así, se crea un componente para cada vista. Para el componente de login, como hay 2 subvistas (correo y constraseña), se tomó la decisión de trabajar con booleanos para definir si se está en modo correo o modo contraseña. En este mismo componente se realizan las validaciones usando expresiones regulares. Cuando tanto el correo como la contraseña hayan sido validados, se loggea en la consola los valores ingresados en el formulario + un rol de usuario aleatorio (pseudo-POST). Es importante mencionar que este componente es hijo de App, quien define el rol y lo pasa como props a tanto el componente de login como de detalles. Una vez el usuario ingresa, lo que se muestra es el componente de home. Aquí se hace fetch a los datos y se mappean para ser mostrados tarjetas (usando flex y flex-wrap para que se vea más organizado). Estas tarjetas son clickleables para permitir la navegación hacia el componente de detalles. Ya en la vista de detalles, una vez se haya hecho fetch al carro seleccionado, se desplega la información como una tabla. Esta tabla, similar a las subvistas del login, maneja el rol de usuario como booleano (True = Admin) para definir si los detalles son editables o no.
