@@ -1,3 +1,5 @@
+<h2>Laura María Restrepo Palomino - 202013289</h2>
+
 ## Correr aplicación
 Antes de empezar a usar la aplicación, se debe correr este comando: `npm install`
 <br>
