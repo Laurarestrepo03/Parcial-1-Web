@@ -7,12 +7,6 @@ Antes de empezar a usar la aplicación, se debe correr este comando: `npm instal
 Una vez se haya hecho esto, se puede iniciar la app: `npm start`
 <br>
 
-Si llega a haber un error por paquetes, intentar correr los siguientes comandos:
-
-- `npm install react-bootstrap bootstrap`
-- `npm install react-router-dom`
-- `npm install react-intl`
-
 Con la app corriendo, ingresar a la siguiente ruta: <http://localhost:3000/login>
 
 ## Proceso de desarrollo
