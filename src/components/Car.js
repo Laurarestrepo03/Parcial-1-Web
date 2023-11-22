@@ -72,7 +72,6 @@ const Car = (props) => {
                 {props.userRole && <input placeholder={intl.formatMessage({id:"C-description"})} 
                                     className="C-description-input"
                                     defaultValue={car.description}></input>}
-                
             </Col>
         </div>
     )
