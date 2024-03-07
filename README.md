@@ -27,7 +27,7 @@ Los elementos de React usados fueron:
 - Col -> Importado desde Bootstrap, utilizado para definir columnas.
 
 ## i18n:
-La app cambia el idioma atomáticamente (entre EN y ES) dependiendo del idioma del navegador. Si se está usando Chrome, ir a configuración -> idiomas y mover inglés o español al principio de la pila. Si por alguna razón la app no puede reconocer el idioma o se está en otro diferente a español o inglés, se selecciona automáticamente inglés.
+La app selecciona el idioma automáticamente (entre EN y ES) según el idioma del navegador. Si se está usando Chrome, ir a configuración -> idiomas y mover inglés o español al principio de la pila. Si por alguna razón la app no puede reconocer el idioma o se está en otro diferente a español o inglés, se selecciona automáticamente inglés.
 
 ## Vistas (EN)
 ### Login - Correo
